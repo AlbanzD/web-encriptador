@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/014/525/101/non_2x/simple-background-design-suitable-for-pc-ppt-and-other-backgrounds-vector.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    font-family: 'Edu AU VIC WA NT Hand', cursive;
+    color: #177a7f; 
+    z-index: 1; 
+}
+
+
+
+.Texto, .Texto1 {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #177a7f; 
+    border-radius: 5px;
+    background: none; 
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.boton {
+    padding: 10px 20px;
+    border: 5px solid #177a7f;
+    background-color: #31abac; 
+    color: #ffffff; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #177a7f;
+    color: white; 
+}
+
+@media (max-width: 600px) {
+    .cajatexto {
+        max-width: 90%; 
+    }
+
+    .buttons {
+        flex-direction: column; 
+        gap: 5px; 
+    }
+}
